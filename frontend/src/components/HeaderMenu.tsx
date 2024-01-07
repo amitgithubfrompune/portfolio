@@ -7,14 +7,18 @@ const HeaderMenu = () => {
                         <a
                             key={item}
                             href="#"
-                            className="text-gray-800 hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            className="text-gray-800 hover:bg-red-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                         >
                             {item}
                         </a>
                     ))}
                 </div>
             </nav>
+            <div>
+            
         </div>
+        </div>
+        
     );
 };
 
